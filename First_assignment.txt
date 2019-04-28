@@ -1,3 +1,5 @@
+Good work 
+
 Hello Students,
 
 This is what you have to do for homework.
@@ -8,46 +10,46 @@ The book is downloadable here: https://allesinalab.uchicago.edu/wp-content/uploa
 
 II. Answer the following question. What does this do?   
 
-1. ls [A-Z]*
+1. ls [A-Z]* #Correct!
 This command will give a list of files in the directory that start with any upper case letter
 
-2. cp *.sh /tmp
+2. cp *.sh /tmp #Correct!
 This will copy files ending in .sh to a temporary file
 
-3. man pwd
+3. man pwd #Correct!
 Will show the help page of pwd
 
-4. cd ~
+4. cd ~ #Correct!
 Changes directory to home directory 
 
-5. mkdir -p /test1/test2/test3 
+5. mkdir -p /test1/test2/test3 #Correct! Will be useful to specify what -p is doing
 Makes the directory test1,test2 and test3
 
-6. cp -r /tmp .
+6. cp -r /tmp . #Correct! Will be useful to specify what -r is doing
 Will copy everything from temporay directory including subdirectories in to the directory you are in
 
-7. ls | less
+7. ls | less #Correct!
 Will list everything in the directory you are at in less format
 
-8. head -n 24 test.txt » abc.txt
+8. head -n 24 test.txt » abc.txt #Correct!
 Print first 24 lines from text.txt and adds the to the file abc.txt
 
-9. echo "aaa" > aaa.txt
+9. echo "aaa" > aaa.txt #Correct!
 Prints the string "aaa" and save them in the file aaa.txt
 
-10. ps -u sallesina
+10. ps -u sallesina #Correct!
 Shows the running processes for sallesina
 
-11. top
+11. top #Correct!
 Displays tasks being managed
 
-12. ls | grep .sh | xargs mv /tmp
+12. ls | grep .sh | xargs mv /tmp #Correct!
 List the files that have .sh and groups them. Moves them to temporary 
 
-13. du -sk /home/* | sort -r -n | head -10
+13. du -sk /home/* | sort -r -n | head -10 #Correct!
  This is will sort numerically the first 10 lines of those files in the home directory
 
-14. sort -r names.txt
+14. sort -r names.txt #Correct!
 In names.txt sorts the lines reversly 
 
 **IMPORTANT** 
